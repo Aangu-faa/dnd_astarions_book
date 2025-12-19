@@ -1,0 +1,117 @@
+{
+  "id": "dnd-astarions-book",
+  "title": "阿斯代伦的饥渴之书 Astarion's Book of Hungers",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>在电子游戏《博德之门3》中，精灵初生吸血鬼阿斯代伦·安库因凭借其个人魅力深受广大被遗忘的国度爱好者们的喜爱。在游戏中，阿斯代伦是一位冒险伙伴及潜在的情缘对象，玩家既可以催他弃恶从善，也可纵容他踏上暴君之路。</p>",
+  "authors": [
+    {
+      "name": "Aangu",
+      "url": "github.com/Aangu-faa",
+      "discord": "Aangu",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "cn",
+      "name": "Chinese",
+      "path": "lang/cn.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-astarions-book/assets/journal-art/cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "tokenRingSubjectMappings": {
+      "modules/dnd-astarions-book/assets/tokens/": "modules/dnd-astarions-book/assets/subjects/"
+    },
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "book",
+      "label": "阿斯代伦的饥渴之书",
+      "path": "packs/book",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "display": "table-of-contents"
+        }
+      }
+    },
+    {
+      "name": "actors",
+      "label": "角色",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "options",
+      "label": "玩家选项",
+      "path": "packs/options",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "adventures",
+      "label": "冒险",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "阿斯代伦的饥渴之书",
+      "color": "#2b0f1c",
+      "sorting": "m",
+      "packs": [
+        "book",
+        "actors",
+        "options",
+        "adventures"
+      ],
+      "folders": []
+    }
+  ],
+  "url": "https://github.com/Aangu-faa/dnd-astarions-book",
+  "manifest": "https://github.com/Aangu-faa/dnd-astarions-book/releases/latest/download/module.json",
+  "download": "https://github.com/Aangu-faa/dnd-astarions-book/releases/download/1.0.0/dnd-astarions-book.zip"
+}

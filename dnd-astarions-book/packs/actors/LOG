@@ -1,0 +1,8 @@
+2025/12/19-21:25:53.164 1998 Recovering log #64
+2025/12/19-21:25:53.168 1998 Delete type=0 #64
+2025/12/19-21:25:53.168 1998 Delete type=3 #63
+2025/12/19-21:57:54.341 62a0 Level-0 table #68: started
+2025/12/19-21:57:54.341 62a0 Level-0 table #68: 0 bytes OK
+2025/12/19-21:57:54.343 62a0 Delete type=0 #66
+2025/12/19-21:57:54.348 62a0 Manual compaction at level-0 from '!actors!2zAzckTTuSCaApml' @ 72057594037927935 : 1 .. '!actors.items.effects!pEysKS2ttHonOhw3.p2R8nkRo92fYR72M.dnd5espellchange' @ 0 : 0; will stop at (end)
+2025/12/19-21:57:54.355 62a0 Manual compaction at level-1 from '!actors!2zAzckTTuSCaApml' @ 72057594037927935 : 1 .. '!actors.items.effects!pEysKS2ttHonOhw3.p2R8nkRo92fYR72M.dnd5espellchange' @ 0 : 0; will stop at (end)
